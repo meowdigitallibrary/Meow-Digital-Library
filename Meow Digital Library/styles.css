@@ -1,0 +1,131 @@
+
+/* Cart styles */
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cart-count {
+  font-size: 20px;
+}
+
+/* Book and item container styles */
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.book {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book h2 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.book button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.book button:hover {
+  background-color: #45a049;
+}
+
+/* Checkout page styles */
+.checkout-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.checkout-table th,
+.checkout-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.checkout-table th {
+  background-color: #f2f2f2;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkout-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkout-actions button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}

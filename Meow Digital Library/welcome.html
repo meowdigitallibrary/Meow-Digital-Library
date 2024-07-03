@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Muslim Fashion Company: Welcome</title>
+</head>
+<body>
+  <div id="header">
+    <div id="logo" align="center" id="social-media-icons" id="cart" >
+      <img src="img/mfc2.jpg" alt="Muslim Fashion Company logo" style="width: 40%; height: 40%;" />
+      <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="img/ig.jpg" alt="Instagram icon" style="width: 3%; height: 3%;"  align="left"/></a>
+      <a href="https://www.facebook.com/login/" target="_blank"><img src="img/fb.jpg" alt="Facebook icon" style="width: 3%; height: 3%;"  align="left" /></a>
+      <a href="https://web.telegram.org/" target="_blank"><img src="img/tele.jpg" alt="Instagram icon" style="width: 3%; height: 3%;"  align="left"/></a>
+      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><img src="img/twitter.jpg" alt="Facebook icon" style="width: 3%; height: 3%;"  align="left" /></a>
+      <a href="cart.html"><img src="img/cart.jpg" alt="Cart icon" style="width: 3%; height: 3%;" align="right" /></a>
+      <a href="login.html"><img src="img/login.jpg" alt="Login icon" style="width: 3%; height: 3%;" align="right" /></a>
+    </div>
+  </div>
+</body>
+<style>
+body {
+  background-image: url('img/bg2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+</style>
+
+<style>
+  .floating-menu {
+    position: under title;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .floating-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  .floating-menu li {
+    float: left;
+  }
+
+  .floating-menu li a {
+    display: block;
+    color: #ff5757;
+    text-align: center;
+    padding: 14px 62px;
+    text-decoration: none;
+    font-family: Yu Mincho;
+  }
+
+  .floating-menu li a:hover {
+    background-color: #FFD366;
+  }
+
+  .floating-menu li.dropdown {
+    display: inline-block;
+  }
+
+  .floating-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .floating-menu .dropdown-content a {
+    color: #ff5757;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .floating-menu .dropdown-content a:hover {
+    background-color: #FFD366;
+  }
+
+  .floating-menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .floating-menu a.active {
+    background-color: #FFA966;
+    color: #800000;
+}
+
+</style>
+<style>
+    /*Styles for the welcome page*/
+    .welcome-page {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .welcome-page h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .welcome-page p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .welcome-page a {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="floating-menu">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li class="dropdown">
+      <a href="men.html">MEN</a>
+      <div class="dropdown-content">
+        <a href="formal.html">Tops</a>
+        <a href="informal.html">Bottoms</a>
+    <li class="dropdown">
+      <a href="women.html">WOMEN</a>
+      <div class="dropdown-content">
+        <a href="tops.html">Tops</a>
+        <a href="bottoms.html">Bottoms</a>
+        <a href="fullsuit.html">Full Suit</a>
+    <li><a href="promotion.html">PROMOTION</a></li>
+    <li><a href="dailytips.html">DAILY TIPS</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+      </div>
+    </li>
+  </ul>
+</div>
+</body>
+
+  <body>
+ <body>
+  <div class="welcome-page">
+    <h1>Welcome!</h1>
+    <p>You have successfully logged in.</p>
+    <p>Go to Homepage</p>
+    <a href="index.html">Home</a>
+    <a href="login.html">Logout</a>
+  </div>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+<style>
+ footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer .container ul li {
+  margin-right: 20px;
+}
+
+footer .container .contact-info {
+  margin-left: 20px;
+}
+
+footer .container .contact-info p {
+  margin: 0;
+}
+
+footer .container .copyright {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #999;
+}
+</style>
+
+<footer>
+  <br><br><br><br>
+  <div class="container">
+    <ul>
+        <li><h4 class="widget-title" style="color: blue;">About us</h4>
+            <p style="text-align: justify; color:#999;">Muslim fashion companies specialize in designing and selling clothing and accessories that are stylish and adhere to the principles of Islam. These companies offer a range of options including traditional Muslim clothing and modern, contemporary styles, as well as a variety of colors, sizes, and customization services. Their goal is to provide fashionable and modest options for Muslims around the world while remaining true to the teachings of Islam.</p>
+          </li>
+ 
+      <li><h4><a href="#">Home</a></h4></li>
+      <li><h4><a href="#">Contact Us</a></h4></li>
+      <li><h4><a href="#">Help</a></h4></li>
+    </ul>
+    <div class="contact-info">
+      <h5><p style="color: blue;">Email: <a href="mailto:muslimfashioncompany@gmail.com">muslimfashioncompany@gmail.com</a></p></h5>
+      <h5><p style="color: blue;">Phone: <a href="tel:+6012 445 6422">+6012 445 6422</a></p></h5>
+    <h6><p class="copyright">Copyright &copy; Muslim Fashion Company 2022</p></h6>
+  </div>
+</footer>
+
+</html>
